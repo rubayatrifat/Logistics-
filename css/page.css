@@ -1,0 +1,67 @@
+/*Hero Area Style Start Here*/
+.hero-area{
+
+	background-image: url(../images/1.webp)!important;
+	background-size: 100% 100%;
+}
+
+.hero-content h1 {
+	color: white;
+	margin: 30px 0px;
+	padding: 52px 0px;
+	font-size: 39px;
+}
+
+.hero-content h6 {
+	color: #d6d6d6;
+	padding-top: 38px;
+
+}
+
+.hero-content {
+	text-align: center;
+	padding: 96px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*Hero Area Style end Here*/
+
+
+/*404 area style start here*/
+.\34 04 {
+	padding: 109px 0px;
+	text-align: center;
+}     
+
+.\34 04-contant p {
+	margin: 9px auto;
+	width: 626px;
+	font-size: 13px;
+	font-family: ubuntu;
+	color: #a6a6a6;
+	margin-bottom: 46px;
+}
+
+.\34 04-contant h1 {
+	font-size: 149px;
+	font-family: raleway;
+	font-weight: 700;
+}
+
+.\34 04-contant button {
+	border: none;
+	background: #1b88e7;
+	padding: 10px 18px;
+}
+
+.\34 04-contant button a {
+	color: white;
+	font-size: 13px;
+	font-family: open sans;
+}
+
+.\34 04-contant button a:hover {
+	text-decoration: none;
+}
+/*404 area style End here*/

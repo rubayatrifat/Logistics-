@@ -1,0 +1,155 @@
+.hero-area{
+
+	background-image: url(../images/83.jpg) !important;
+	background-size: 100% 100%;
+}
+
+.hero-content h1 {
+	color: white;
+	margin: 30px 0px;
+	padding: 52px 0px;
+	font-size: 39px;
+}
+
+.hero-content h6 {
+	color: #d6d6d6;
+	padding-top: 38px;
+
+}
+
+.hero-content {
+	text-align: center;
+	padding: 96px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*Hero Area Style end Here*/
+
+
+.map img{
+
+	width: 100%;
+}
+
+/*Message Box Start Here*/
+
+.message-address {
+	padding: 108px 0px;
+}
+
+.message-and-address {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.email-name {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.email-name input {
+	background: white;
+	border: 1px solid #E5E5E5;
+	color: #797979;
+	width: 48%;
+	border-radius: 7px;
+}
+.message {
+	width: 45%;
+}
+
+.address {
+	width: 45%;
+}
+
+.message-box input {
+	background: white;
+	color:  #797979;
+	border: 1px solid #E5E5E5;
+	margin: 20px 0px;
+	padding: 7px 289px 96px 17px;
+	border-radius: 7px;
+}
+
+.message-and-address [type="submit"] {
+	color: white;
+	background: #1b88e7;
+	width: 100%;
+	border-radius: 7px;
+	font-weight: 700;
+	padding: 12px 15px;
+}
+
+.phons {
+	display: flex;
+	align-items: center;
+}
+
+.phonst {
+	display: flex;
+	align-items: center;
+}
+
+.phone-and-email {
+	display: flex;
+	justify-content: space-between;
+}
+.email {
+	display: flex;
+	align-items: center;
+}
+
+.email p {
+	padding: 4px 0px 5px 13px;
+}
+
+.email-email {
+	width: 49%;
+}
+
+.phoness {
+	width: 49%;
+}
+
+.phone-and-email {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 22px;
+}
+
+.phonst {
+	margin: 4px 0px;
+}
+
+.addresss {
+	display: flex;
+	align-items: center;
+}
+
+.address-address {
+	margin: 25px 0px;
+}
+
+.phonst p {
+	padding-left: 12px;
+}
+
+.phons p {
+	padding-left: 12px;
+}
+
+.addresss p {
+	padding-left: 12px;
+}
+
+.message-address i {
+	color: blue;
+}
+
+.p {
+	color: #bfbfbf;
+}
+
+/*Message Box End Here*/

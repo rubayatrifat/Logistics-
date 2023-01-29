@@ -1,0 +1,117 @@
+.hero-area{
+
+	background-image: url(../images/h-2.webp)!important;
+	background-size: 100% 100%;
+}
+
+.hero-content h5 {
+	color: blue;
+	font-size: 14px;
+}
+
+.hero-image {
+	margin: 60px 340px -50px;
+	display: flex;
+}
+
+.hero-image img {
+	margin: 0px 30px;
+	width: 60px;
+}
+
+.img {
+	background: black;
+	padding: 28px 9px;
+}
+
+.img1 {
+	background: black;
+	padding: 28px 9px;
+	margin: 0px 20px;
+}
+
+
+
+/*Servise Area start Here*/
+.servies-dives {
+	display: flex;
+	align-items: center;
+}
+
+.divs {
+	text-align: center;
+	background-color: #3c3c3ce0;
+	width: 26%;
+	padding: 70px 30px;
+	color: #fff;
+	transition: .3s;
+	height: 297px;
+}
+
+.servies {
+	padding: 54px;
+}
+
+
+
+.divs p {
+	visibility: hidden;
+	opacity: 0;
+	transition: .5s;
+	transform: translateY(50px);
+	font-weight: 400;
+	font-family: open sans;
+}
+
+
+
+
+
+.divs:hover{
+	background: #2285DA;
+}
+
+
+
+.divs:hover p{
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+
+.divs h3 {
+	font-weight: 500;
+	font-family: Raleway;
+	padding: 9px 0px;
+}
+/*Servise Area End Here*/
+
+
+/*Call to Action Area Style Start Here*/
+.call-to-action{
+
+	background-color:black;
+}
+
+.call {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4px 24px;
+}
+
+.call button {
+	width: 20%;
+	padding: 10px 18px;
+	background: #1b88e7 !important;
+	color: #fff;
+	font-size: 15px;
+	border: none;
+}
+.call p {
+	font-size: 18px;
+	padding: 60px 20px;
+	color: white;
+}
+/*Call to Action Area Style End Here*/

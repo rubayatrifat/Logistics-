@@ -1,0 +1,130 @@
+/*Hero Area Style Start here*/
+.hero-area{
+
+	background-image: url(../images/bba.jpg)!important;
+	background-size: 100% 100%;
+}
+
+
+
+.hero-content h1 {
+	color: white;
+	margin: 30px 0px;
+	padding: 52px 0px;
+	font-size: 39px;
+}
+
+.hero-content h6 {
+	color: #d6d6d6;
+	padding-top: 38px;
+}
+
+.hero-content {
+	text-align: center;
+	padding: 96px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*Hero Area Style Start here*/
+
+
+
+/*About Us Area Style Start Here*/
+.about-us {
+	padding: 69px 0px;
+}
+.about-us-content {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+}
+.about-us-content h2 {
+	margin: 16px 0px;
+}
+.about-us-details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about-us-div {
+	width: 21%;
+	margin-top: 47px;
+}
+
+.about-us-div span {
+	color: #1b88e7;
+	font-size: 18px;
+	font-family: ubuntu;
+	font-weight: 500;
+}
+.about-us-div h4 {
+	margin: 22px 0px 13px 0px;
+	font-weight: 500;
+	font-family: ubuntu;
+	font-size: 23px;
+}
+.about-us-div p {
+	color: #a6a6a6;
+	font-family: Open Sans;
+	font-weight: 400;
+}
+.about-us-div h6 {
+	font-family: Open Sans;
+	color: #404040;
+	font-size: 15px;
+}
+
+/*About Us Area Style End Here*/
+
+/*Why Us Area Style Start Here*/
+.why-us-area {
+	padding: 93px 0px;
+}
+.why-us-contant {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.why-us-contant h2 {
+	margin: 14px 0px;
+}
+.why-us-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 67px;
+}
+.why-us {
+	width: 24%;
+}
+
+.why-us {
+	width: 24%;
+	background-color: #fafafa;
+	padding: 17px 17px;
+	border: 1px solid #e5e5e5;
+}
+/*Why Us Area Style End Here*/
+
+/*Our Clien Area Style Start Here*/
+.our-clind {
+	padding: 83px 0px;
+}
+
+.our-clind-contant {
+	text-align: center;
+}
+
+.our-clind-contant h2 {
+	margin: 17px 0px;
+}
+
+.clinds {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 57px;
+}
+/*Our Clien Area Style End Here*/

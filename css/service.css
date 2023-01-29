@@ -1,0 +1,265 @@
+/*Hero Area Style Start Here*/
+.hero-area{
+
+	background-image: url(../images/63.webp)!important;
+	background-size: 100% 100%;
+}
+
+.hero-content h1 {
+	color: white;
+	margin: 30px 0px;
+	padding: 52px 0px;
+	font-size: 39px;
+}
+
+.hero-content h6 {
+	color: #d6d6d6;
+	padding-top: 38px;
+
+}
+
+.hero-content {
+	text-align: center;
+	padding: 96px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*Hero Area Style end Here*/
+
+
+
+
+
+/*Servise Area start Here*/
+.servies-dives {
+	display: flex;
+	align-items: center;
+}
+
+.divs {
+	text-align: center;
+	background-color: #3c3c3ce0;
+	width: 26%;
+	padding: 70px 30px;
+	color: #fff;
+	transition: .3s;
+	height: 297px;
+}
+
+.servies {
+	padding: 54px;
+}
+
+
+
+.divs p {
+	visibility: hidden;
+	opacity: 0;
+	transition: .5s;
+	transform: translateY(50px);
+	font-weight: 400;
+	font-family: open sans;
+}
+
+
+
+
+
+.divs:hover{
+	background: #2285DA;
+}
+
+
+
+.divs:hover p{
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+
+
+.divs h3 {
+	font-weight: 500;
+	font-family: Raleway;
+	padding: 9px 0px;
+}
+/*Servise Area End Here*/
+
+
+
+
+
+
+
+/*Call to Action Area Style Start Here*/
+.call-to-action{
+
+	background-color:black;
+}
+
+.call {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4px 24px;
+}
+
+.call button {
+	width: 20%;
+	padding: 10px 18px;
+	background: #1b88e7 !important;
+	color: #fff;
+	font-size: 15px;
+	border: none;
+}
+.call p {
+	font-size: 18px;
+	padding: 60px 20px;
+	color: white;
+}
+/*Call to Action Area Style End Here*/
+
+
+/*Pricing Area Style Start here*/
+.pricing {
+	padding: 95px 0px;
+}
+
+
+.pricing-contant {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pricing-contant h4 {
+	margin: 18px 0px;
+}
+
+.pricing-contant p {
+	margin-bottom: 63px;
+}
+.plan-divs {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.plan {
+	width: 29%;
+	border: 1px solid #e5e5e5;
+}
+
+.frist-plan {
+	padding: 35px 0px 11px 0px;
+}
+.counter {
+	background: blue;
+	color: white;
+	padding: 32px;
+}
+
+.frist-div {
+	padding: 20px 12px;
+	color: #a6a6a6;
+}
+
+.s-div {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 14px 0px;
+	color: #a6a6a6;
+}
+
+.third-div {
+	margin-top: 20px;
+}
+
+.frist-plan h5 {
+	margin-top: 21px;
+	font-weight: 500;
+}
+
+.counter p {
+	font-family: ubuntu;
+	font-weight: 400;
+}
+
+.third-div button {
+	width: 100%;
+	padding: 8px 0px;
+	border: none;
+	color: white;
+	background: black;
+	border-radius: 5px;
+}
+
+.counter h2 {
+	font-size: 52px;
+}
+
+.counter h2 span {
+	font-size: 29px;
+}
+/*Pricing Area Style End here*/
+
+
+/*Testimonials Area Start Here*/
+.service-testimonials {
+	position: relative;
+	overflow: hidden;
+}
+.testimonial {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.service-testiminial .testimonials {
+	width: 49%;
+	position: relative;
+}
+.service-testiminial .testimonials::before {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	right: -11px;
+	width: 0px;
+	height: 0px;
+	border: 20px solid transparent;
+	border-top: 0;
+	border-bottom: 20px solid #fff;
+	transform: rotate(45deg);
+}
+.testimonials {
+	background: white;
+	padding: 18px;
+	border-radius: 10px;
+	margin-top: 43px;
+}
+.clinds {
+	width: 49%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 57px;
+	flex-wrap: wrap;
+}
+
+.clinds img {
+	width: 30%;
+	margin-bottom: 20px;
+	background: #fff;
+	padding: 20px 20px;
+}
+
+.testimonials {
+	width: 49%;
+	margin-right: 49px;
+}
+
+/*Testimonials Area End Here*/
+
+
+

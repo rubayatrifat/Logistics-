@@ -1,0 +1,81 @@
+.hero-area{
+
+	background-image: url(../images/ss.jpg)!important;
+	background-size: 100% 100%;
+	height: 630px;
+}
+
+
+.hero-content {
+
+	text-align: left !important;
+	color: #fff ;
+	padding: 96px 0px ;
+}
+
+.hero-content h1 {
+	font-size: 49px !important;
+	font-weight: 1000 !important;
+}
+
+
+
+
+
+
+
+
+/*Servise Area start Here*/
+.servies-dives {
+	display: flex;
+	align-items: center;
+}
+
+.divs {
+	text-align: center;
+	background-color: #3c3c3ce0;
+	width: 26%;
+	padding: 70px 30px;
+	color: #fff;
+	transition: .3s;
+	height: 297px;
+}
+
+.servies {
+	padding: 54px;
+}
+
+
+
+.divs p {
+	visibility: hidden;
+	opacity: 0;
+	transition: .5s;
+	transform: translateY(50px);
+	font-weight: 400;
+	font-family: open sans;
+}
+
+
+
+
+
+.divs:hover{
+	background: #2285DA;
+}
+
+
+
+.divs:hover p{
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+
+.divs h3 {
+	font-weight: 500;
+	font-family: Raleway;
+	padding: 9px 0px;
+}
+/*Servise Area End Here*/
